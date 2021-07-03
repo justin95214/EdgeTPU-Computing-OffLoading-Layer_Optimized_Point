@@ -67,6 +67,9 @@ Notion : https://www.notion.so/OffLoading-CNN-58f58536b35e4f5e99b2621388e74723
     2.  1번의 문제점으로 Engine를 사용하여, usb포트에 연결하여 Coral에 전력소모는 되지만, complier가 CPU이므로 CPU연산 처리 >> 컴퓨터 관점) 그래픽카드 전원은 들어오지만, tensorflow-gpu를 사용하지 못한 현상 발생
 
         ⇒  임베디드 기기에서 소모하는 총 전력소모을 줄이는 목적이므로
+        
+    3..h5모델에서 .tflite 모델 변환 하면서 이미지 Input또한 Data Quantization적용하여 기존 ground truth class label에 맞지 않게 이진화 되버림
+    4. 3번으로 인해 추론시 성능이 나오지않음
 
 ## 6. 2차 재측정 결과 & 개선 점
 
@@ -82,6 +85,8 @@ Notion : https://www.notion.so/OffLoading-CNN-58f58536b35e4f5e99b2621388e74723
 ⇒> **Only Raspi와 Coral+ Raspi를 비교시에, Coral 적용시 평균 1회 실행시간이 대략 1/6배 감소**
 
 ⇒> **Only Raspi와 Coral+ Raspi를 비교시에, Coral 적용시 평균 1회 누적 전력량 또한 이 평균적으로 2/3배 감소**
+
+⇒> **.h5와 .tflite로 Post Quantizaiton 적용시 모델 성능이 유지 됨**
 
 ⇒> **EdgeTPU Engine & Complier 모두 사용**
 
