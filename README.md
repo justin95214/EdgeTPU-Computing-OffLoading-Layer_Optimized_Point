@@ -68,8 +68,8 @@ Notion : https://www.notion.so/OffLoading-CNN-58f58536b35e4f5e99b2621388e74723
 
         ⇒  임베디드 기기에서 소모하는 총 전력소모을 줄이는 목적이므로
         
-    3..h5모델에서 .tflite 모델 변환 하면서 이미지 Input또한 Data Quantization적용하여 기존 ground truth class label에 맞지 않게 이진화 되버림
-    4. 3번으로 인해 추론시 성능이 나오지않음
+    3.  h5모델에서 .tflite 모델 변환 하면서 이미지 Input또한 Data Quantization적용하여 기존 ground truth class label에 맞지 않게 이진화 되버림
+    4.  3번으로 인해 추론시 성능이 나오지않음
 
 ## 6. 2차 재측정 결과 & 개선 점
 
