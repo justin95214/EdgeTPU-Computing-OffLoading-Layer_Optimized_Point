@@ -2,7 +2,7 @@
 
 Notion : https://www.notion.so/OffLoading-CNN-58f58536b35e4f5e99b2621388e74723
 
-임베디드 기기에 효율적인 전력소모를 위해 모바일 클라우드 컴퓨팅 적용을 위해 연산 오프로딩(Computing OffLoading)을 통해 CNN기반 모델에 대한 ON-Device로 엣지컴퓨터(EdgeTPU)추론의 레이어 포인트 지점 연구
+임베디드 기기에 효율적인 전력소모를 위해 모바일 클라우드 컴퓨팅 적용 연산 오프로딩(Computing OffLoading)을 통해 CNN기반 모델에 대한 ON-Device로 엣지컴퓨터(EdgeTPU)추론의 레이어 포인트 지점 연구
 
 ## 1. 연산 오프로딩 기법
 
