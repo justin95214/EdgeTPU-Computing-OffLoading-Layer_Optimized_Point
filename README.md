@@ -26,11 +26,11 @@ Notion : https://www.notion.so/OffLoading-CNN-58f58536b35e4f5e99b2621388e74723
 ## 3. 실행시간 및 소모 전력 측정-EdgeTPU Engine & Complier (2차 최종본)
 (Notion 표링크와 연결됨)
 [3-1. VGG16모델 기준 Raspi3+ 레이어별 실행시간 및 소모 전력 측정](https://www.notion.so/2a87febb01cb4daa9021a660d1c9c267)
-
+[%E1%84%8B%E1%85%A6%E1%86%BA%E1%84%8C%E1%85%B5%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%B2%E1%84%90%E1%85%A5%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%A9%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%83%E1%85%B5%E1%86%BC%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8(OffLoading)%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%8B%20251355e78b724f40a90bacb4244b8bd2/Untitled.png](https://github.com/justin95214/EdgeTPU-Computing-OffLoading-Layer_Optimized_Point/blob/main/Resource/raspi.png)
 - type: float32
 
 [3-2. VGG16모델 기준 Coral Accelerator + Raspi3plus 레이어별 실행시간 및 소모 전력 ](https://www.notion.so/b6f72a1e6bdd4602a9733d70100f8abf)
-
+[%E1%84%8B%E1%85%A6%E1%86%BA%E1%84%8C%E1%85%B5%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%B2%E1%84%90%E1%85%A5%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%A9%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%83%E1%85%B5%E1%86%BC%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8(OffLoading)%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%8B%20251355e78b724f40a90bacb4244b8bd2/Untitled.png](https://github.com/justin95214/EdgeTPU-Computing-OffLoading-Layer_Optimized_Point/blob/main/Resource/coral.png)
 - type : uint8
 - DataSet Link :
 
