@@ -19,11 +19,11 @@
 ### 2-1. Modules Requirement
 
 라즈베리파이 Stretch Ubuntu 16.04
-Python 3.5.2
-Tensorflow 1.15
-keras 2.3.1
-EdgeTPU Compiler 2.0
-EdgeTPU Runtime 12
+- Python 3.5.2
+- Tensorflow 1.15
+- keras 2.3.1
+- EdgeTPU Compiler 2.0
+- EdgeTPU Runtime 12
 
 ## 3. 실행시간 및 소모 전력 측정-EdgeTPU Engine & Complier (2차 최종본)
 
