@@ -77,7 +77,7 @@ Notion : https://www.notion.so/OffLoading-CNN-58f58536b35e4f5e99b2621388e74723
 
 ⇒> *VGG16모델 기준으로 14layer까지 진행하고 오프로딩 적용시 전력소모를 크게 줄일 수 있음 예상**
 
-⇒> **일반적인 CNN모델 적용시 Full-connected Layer의 Unit 파라미터에 따라 바뀜. Conv layer, Max pooling layer와 비교시에도 input img보다 unit에따른 전력 소모 변화가 확실히 큼 **
+⇒> **일반적인 CNN모델 적용시 Full-connected Layer의 Unit 파라미터에 따라 바뀜. Conv layer, Max pooling layer와 비교시에도 input img보다 unit에따른 전력 소모 변화가 확실히 큼**
 
 ⇒> **Only Raspi와 Coral+ Raspi를 비교시에, Coral 적용시 평균 1회 실행시간이 대략 1/6배 감소**
 
