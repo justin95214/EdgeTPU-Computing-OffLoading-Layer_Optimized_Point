@@ -74,6 +74,13 @@ Notion : https://www.notion.so/OffLoading-CNN-58f58536b35e4f5e99b2621388e74723
 
 - EdgeTPU Engine에 EdgeTPU Compiler을 적용 시에 Coral의 연산 Ram용량이 초과 되면, CPU의 연산을 사용하므로, Only CPU연산과 EdgeTPU의 연산에 의한 비교가 어려움이 있다고 판단하여 EdgeTPU Engine에 CPU의 Complier를 사용함
 
+⇒> **Only Raspi와 Coral+ Raspi를 비교시에, Coral 적용시 평균 1회 실행시간이 대략 1/6배 감소**
+
+⇒> **Only Raspi와 Coral+ Raspi를 비교시에, Coral 적용시 평균 1회 누적 전력량 또한 이 평균적으로 2/3배 감소**
+
 ⇒> **EdgeTPU Engine & Complier 모두 사용**
 
 ⇒> **평균 1회 실행시간과 누적 전력량 부문에서 이전 결과와 큰 차이를 보임**
+
+⇒> **Only Raspi와 Coral+ Raspi를 비교시에, 램부족으로 15~17 레이어는 Onlay Raspi에서 메모리보류가 발생하지만, Coral+Raspi에서는 발생하지 않음**
+
