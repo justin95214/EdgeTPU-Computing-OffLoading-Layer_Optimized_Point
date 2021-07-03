@@ -28,8 +28,8 @@ Notion : https://www.notion.so/OffLoading-CNN-58f58536b35e4f5e99b2621388e74723
 - EdgeTPU Runtime 12
 
 ## 3. 실행시간 및 소모 전력 측정-EdgeTPU Engine & Complier (2차 최종본)
-
-[3-1. VGG16모델 기준 Raspi3+ 레이어별 실행시간 및 소모 전력 측](https://www.notion.so/2a87febb01cb4daa9021a660d1c9c267)
+(Notion 표링크와 연결됨)
+[3-1. VGG16모델 기준 Raspi3+ 레이어별 실행시간 및 소모 전력 측정](https://www.notion.so/2a87febb01cb4daa9021a660d1c9c267)
 
 - type: float32
 
