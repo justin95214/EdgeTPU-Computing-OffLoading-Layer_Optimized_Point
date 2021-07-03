@@ -35,9 +35,8 @@ Notion : https://www.notion.so/OffLoading-CNN-58f58536b35e4f5e99b2621388e74723
 ![class_anno.png](https://github.com/justin95214/EdgeTPU-Computing-OffLoading-Layer_Optimized_Point/blob/main/Resource/raspi.png)
 
 - type : uint8
-- DataSet Link :
+- DataSet Link :[실험모델 h5 tflite-20210702T131309Z-001.zip](https://drive.google.com/file/d/1ALiP4MigxddU9ljWFnOEK__WbI-zgsvn/view?usp=drivesdk)
 
-[실험모델 h5 tflite-20210702T131309Z-001.zip](https://drive.google.com/file/d/1ALiP4MigxddU9ljWFnOEK__WbI-zgsvn/view?usp=drivesdk)
 
 - 그래프 결과( 아래: coral+ raspi / 위 : raspi)
 
