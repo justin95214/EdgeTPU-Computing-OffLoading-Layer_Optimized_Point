@@ -54,6 +54,10 @@ Notion : https://www.notion.so/OffLoading-CNN-58f58536b35e4f5e99b2621388e74723
 
 ![%E1%84%8B%E1%85%A6%E1%86%BA%E1%84%8C%E1%85%B5%E1%84%8F%E1%85%A5%E1%86%B7%E1%84%91%E1%85%B2%E1%84%90%E1%85%A5%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A1%E1%86%AB%20%E1%84%8B%E1%85%A9%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%83%E1%85%B5%E1%86%BC%E1%84%80%E1%85%B5%E1%84%87%E1%85%A5%E1%86%B8(OffLoading)%E1%84%8B%E1%85%B3%E1%86%AF%20%E1%84%8B%20251355e78b724f40a90bacb4244b8bd2/Untitled%206.png](https://github.com/justin95214/EdgeTPU-Computing-OffLoading-Layer_Optimized_Point/blob/main/Resource/Untitled%206.png)
 
+### 4-1. .h5 & tflite모델 모델 네트워크 구성 비교
+(좌 : .h5 / 우:.tflite)
+![class_anno.png](https://github.com/justin95214/EdgeTPU-Computing-OffLoading-Layer_Optimized_Point/blob/main/Resource/network.png)
+
 ## 5. 문제점
 
 1차 측정 연구시
