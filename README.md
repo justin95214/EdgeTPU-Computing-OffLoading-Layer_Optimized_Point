@@ -68,11 +68,16 @@ Notion : https://www.notion.so/OffLoading-CNN-58f58536b35e4f5e99b2621388e74723
 
         ⇒  임베디드 기기에서 소모하는 총 전력소모을 줄이는 목적이므로
 
-## 6. 2차 재측정 개선 점
+## 6. 2차 재측정 결과 & 개선 점
 
 2차 재측정으로 개선된 성능 결과 도출
 
 - EdgeTPU Engine에 EdgeTPU Compiler을 적용 시에 Coral의 연산 Ram용량이 초과 되면, CPU의 연산을 사용하므로, Only CPU연산과 EdgeTPU의 연산에 의한 비교가 어려움이 있다고 판단하여 EdgeTPU Engine에 CPU의 Complier를 사용함
+
+
+⇒> *VGG16모델 기준으로 14layer까지 진행하고 오프로딩 적용시 전력소모를 크게 줄일 수 있음 예상**
+
+⇒> *일반적인 CNN모델 적용시 Full-connected Layer의 Unit 파라미터에 따라 바뀜. Conv layer, Max pooling layer와 비교시에도 input img보다 unit에따른 전력 소모 변화가 확실히 큼**
 
 ⇒> **Only Raspi와 Coral+ Raspi를 비교시에, Coral 적용시 평균 1회 실행시간이 대략 1/6배 감소**
 
