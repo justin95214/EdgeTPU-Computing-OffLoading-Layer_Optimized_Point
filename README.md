@@ -1,12 +1,11 @@
+# 엣지컴퓨터 기반 오프로딩기법(OffLoading)을 위한 CNN모델 최적화 레이어 최적점 연구
+
+
 ## Paper Acknowledgement
 Thank you for using my research!
 1. Title : "Energy Efficient and Real-Time Remote Sensing in AI-Powered Drone" -  https://doi.org/10.1155/2021/6650053
 
-
 ![image](https://github.com/justin95214/EdgeTPU-Computing-OffLoading-Layer_Optimized_Point/blob/main/Resource/acknowledgement.png)
-
-
-# 엣지컴퓨터 기반 오프로딩기법(OffLoading)을 위한 CNN모델 최적화 레이어 최적점 연구
 
 Notion : https://www.notion.so/OffLoading-CNN-58f58536b35e4f5e99b2621388e74723
 
